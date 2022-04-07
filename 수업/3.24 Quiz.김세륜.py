@@ -1,0 +1,12 @@
+print()
+print("*"*25)
+print("2분반\t12345학번\t성명: 한림대")
+print("*"*25)
+print()
+print("# 원뿔의 겉넓이와 부피")
+r = input("반지름? ")
+h = input("높이? ")
+l = input("부채꼴의 반지름? ")
+pi = 3.14
+print("원뿔의 겉넓이: ", "%.1f"%(pi*int(r)**2+pi*int(r)*int(l)))
+print("원뿔의 부피: ", round(pi*int(r)**2*int(h),1))
